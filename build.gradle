@@ -3,7 +3,7 @@ plugins {
     id "io.freefair.lombok" version "8.2.2"
 }
 
-group = 'ru.netology.service'
+group = 'ru.netology'
 version = '1.0-SNAPSHOT'
 
 sourceCompatibility = 11
@@ -28,3 +28,4 @@ test {
     useJUnitPlatform()
     systemProperty 'selenide.headless', System.getProperty('selenide.headless')
 }
+
